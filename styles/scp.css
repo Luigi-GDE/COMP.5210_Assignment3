@@ -1,0 +1,151 @@
+/* Main box */
+.holder {
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: aliceblue;
+    width: 95%;
+}
+
+
+/* Image in box */
+.holderimg {
+    width: 50%;
+    height: auto;
+    border-radius: 0.1vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Font stylings */
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.4rem;
+    color: rgb(188, 219, 247);
+}
+
+p {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+
+/* In text colours */
+.red {
+
+    display: inline;
+    font-weight: 700;
+    color: rgb(102, 127, 151);
+}
+
+.expunge {
+    color: rgb(59, 59, 59);
+    display: inline;
+}
+
+.blue {
+    color: rgb(188, 219, 247);
+}
+
+/* Navigation arrow blocks */
+.navblock {
+    width: 100%;
+    height: auto;
+    background-color: rgb(39, 39, 39);
+    margin-bottom: 0;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 0.4%;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.read{
+    margin: auto;
+}
+
+/* Media query for large smartphones*/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .container .holder {
+        width: 100%;
+    }
+}
+
+/* Media query for small smartphones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .container .holder {
+        width: 100%;
+    }
+}
